@@ -1,0 +1,145 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1450" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040817"/>
+      <stop offset="0.52" stop-color="#0B1531"/>
+      <stop offset="1" stop-color="#071826"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(842 314) rotate(90) scale(330 520)">
+      <stop stop-color="#34F5D2" stop-opacity="0.40"/>
+      <stop offset="0.42" stop-color="#34F5D2" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#34F5D2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cricketGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(388 590) rotate(90) scale(220 270)">
+      <stop stop-color="#32E6FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#32E6FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00E1FF"/>
+      <stop offset="1" stop-color="#4AF4C6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0C1835" stop-opacity="0.90"/>
+      <stop offset="1" stop-color="#09111F" stop-opacity="0.74"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap');
+      .title { font-family: 'Cinzel', Georgia, serif; font-weight: 800; letter-spacing: 7px; }
+      .label { font-family: 'Inter', 'Segoe UI', sans-serif; font-weight: 700; letter-spacing: 3px; }
+      .body { font-family: 'Inter', 'Segoe UI', sans-serif; font-weight: 500; }
+      .mono { font-family: 'Consolas', 'Courier New', monospace; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1560" height="860" rx="24" stroke="rgba(137,231,255,0.18)" stroke-width="1.6"/>
+
+  <g opacity="0.16">
+    <path d="M0 738H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 676H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 614H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 552H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 490H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 428H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 366H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 304H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M0 242H1600" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M184 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M308 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M432 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M556 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M680 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M804 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M928 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M1052 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M1176 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M1300 0V900" stroke="#B7F8FF" stroke-width="1"/>
+    <path d="M1424 0V900" stroke="#B7F8FF" stroke-width="1"/>
+  </g>
+
+  <circle cx="842" cy="314" r="330" fill="url(#halo)"/>
+  <circle cx="388" cy="590" r="240" fill="url(#cricketGlow)"/>
+
+  <g opacity="0.75">
+    <circle cx="118" cy="104" r="2.3" fill="#91F4FF"/>
+    <circle cx="216" cy="208" r="1.7" fill="#91F4FF"/>
+    <circle cx="294" cy="148" r="2" fill="#4AF4C6"/>
+    <circle cx="428" cy="84" r="1.7" fill="#91F4FF"/>
+    <circle cx="534" cy="164" r="1.8" fill="#4AF4C6"/>
+    <circle cx="688" cy="118" r="2.1" fill="#91F4FF"/>
+    <circle cx="796" cy="88" r="1.4" fill="#4AF4C6"/>
+    <circle cx="962" cy="132" r="1.8" fill="#91F4FF"/>
+    <circle cx="1126" cy="86" r="1.8" fill="#4AF4C6"/>
+    <circle cx="1292" cy="168" r="2.1" fill="#91F4FF"/>
+    <circle cx="1458" cy="116" r="1.8" fill="#4AF4C6"/>
+  </g>
+
+  <g opacity="0.70">
+    <path d="M104 736C216 648 372 604 516 616" stroke="url(#accent)" stroke-width="2.2"/>
+    <path d="M104 772C230 684 382 642 566 654" stroke="#76E9FF" stroke-opacity="0.55" stroke-width="1.6"/>
+    <circle cx="520" cy="616" r="6" fill="#4AF4C6"/>
+    <circle cx="566" cy="654" r="5" fill="#00E1FF"/>
+  </g>
+
+  <g transform="translate(242 454)">
+    <circle cx="114" cy="54" r="30" fill="#08131E" stroke="#6AEFFF" stroke-width="3"/>
+    <path d="M106 86L78 164L122 210L166 140L144 98L106 86Z" fill="#08131E" stroke="#6AEFFF" stroke-width="3.2"/>
+    <path d="M98 108L34 148" stroke="#6AEFFF" stroke-width="9" stroke-linecap="round"/>
+    <path d="M138 102L214 64" stroke="#6AEFFF" stroke-width="8.4" stroke-linecap="round"/>
+    <path d="M120 208L72 310" stroke="#6AEFFF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M150 198L198 314" stroke="#6AEFFF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M212 66L286 -48" stroke="#A9FFF3" stroke-width="12" stroke-linecap="round"/>
+    <path d="M286 -48L315 -16" stroke="#A9FFF3" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="316" cy="-16" r="12" fill="#A9FFF3"/>
+    <path d="M64 312H214" stroke="#3CD8FF" stroke-opacity="0.45" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.40">
+    <path d="M1224 170C1318 206 1372 286 1372 382" stroke="#59E9FF" stroke-width="2"/>
+    <path d="M1198 146C1326 186 1414 300 1414 428" stroke="#59E9FF" stroke-opacity="0.66" stroke-width="1.8"/>
+    <path d="M1168 118C1336 160 1462 314 1462 486" stroke="#59E9FF" stroke-opacity="0.30" stroke-width="1.6"/>
+    <circle cx="1180" cy="118" r="4.5" fill="#4AF4C6"/>
+    <circle cx="1462" cy="486" r="4.5" fill="#4AF4C6"/>
+  </g>
+
+  <g>
+    <rect x="72" y="70" width="260" height="58" rx="16" fill="#08111F" fill-opacity="0.84" stroke="#39E8F5" stroke-opacity="0.55"/>
+    <text x="102" y="106" class="label" font-size="18" fill="#D6FAFF">AGENTIC ENGINEERING</text>
+  </g>
+
+  <g>
+    <text x="800" y="244" text-anchor="middle" class="title" font-size="78" fill="#F7FBFF">RAVINDRA REDDY</text>
+    <text x="800" y="312" text-anchor="middle" class="label" font-size="22" fill="#6BE9FF">AI ENGINEER | ML ENGINEER | AI AGENT DEVELOPER</text>
+    <text x="800" y="378" text-anchor="middle" class="body" font-size="28" fill="#E8F8FF">Building autonomous AI systems that think, learn, reason and scale.</text>
+  </g>
+
+  <g>
+    <rect x="972" y="472" width="468" height="222" rx="28" fill="url(#panel)" stroke="#6BE9FF" stroke-opacity="0.52"/>
+    <text x="1014" y="526" class="label" font-size="19" fill="#C4F9FF">STATUS // ONLINE</text>
+    <text x="1014" y="574" class="mono" font-size="23" fill="#EAFDFF">MODE      : BUILD / DEPLOY / OPTIMIZE</text>
+    <text x="1014" y="614" class="mono" font-size="23" fill="#EAFDFF">STACK     : PYTHON / AGENTS / RAG / FULL STACK</text>
+    <text x="1014" y="654" class="mono" font-size="23" fill="#EAFDFF">SIGNAL    : PRODUCT + RESEARCH + EXECUTION</text>
+    <text x="1014" y="694" class="mono" font-size="23" fill="#EAFDFF">MISSION   : TURN COMPLEX AI INTO SHIPPED SYSTEMS</text>
+  </g>
+
+  <g>
+    <rect x="1018" y="146" width="330" height="234" rx="26" fill="url(#panel)" stroke="#4AF4C6" stroke-opacity="0.44"/>
+    <text x="1052" y="198" class="label" font-size="18" fill="#C4F9FF">BUILD STACK</text>
+    <rect x="1050" y="224" width="266" height="14" rx="7" fill="#10233F"/>
+    <rect x="1050" y="224" width="246" height="14" rx="7" fill="url(#accent)"/>
+    <text x="1052" y="270" class="body" font-size="24" fill="#EAFDFF">AI Agents</text>
+    <text x="1052" y="304" class="body" font-size="24" fill="#EAFDFF">Machine Learning</text>
+    <text x="1052" y="338" class="body" font-size="24" fill="#EAFDFF">Deep Learning</text>
+    <text x="1052" y="372" class="body" font-size="24" fill="#EAFDFF">RAG Systems</text>
+  </g>
+
+  <g filter="url(#blur)" opacity="0.35">
+    <circle cx="1400" cy="732" r="94" fill="#19E6FF"/>
+    <circle cx="198" cy="186" r="76" fill="#41F0C5"/>
+  </g>
+
+  <text x="800" y="818" text-anchor="middle" class="body" font-size="22" fill="#B9F6FF">Research-grade thinking. Startup-grade speed. Product-grade execution.</text>
+</svg>
